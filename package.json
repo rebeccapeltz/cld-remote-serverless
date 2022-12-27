@@ -1,0 +1,16 @@
+{
+  "name": "cld-remote-serverless",
+  "version": "1.0.0",
+  "description": "Serverless function to process custom Cloudinary transformation ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Cloudinary Customer Education",
+  "license": "MIT",
+  "dependencies": {
+    "busboy": "^1.6.0",
+    "imagemagick": "^0.1.3",
+    "moment": "^2.29.4"
+  }
+}
