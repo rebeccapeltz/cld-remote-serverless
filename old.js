@@ -66,6 +66,7 @@ const transform = async file => {
   // prepare temporary input and output files
   let inputFile = null
   let outputFile = null
+  
   inputFile = '/tmp/inputFile.jpg'
   // write the temporary input file
   fs.writeFileSync(inputFile, file.buffer)

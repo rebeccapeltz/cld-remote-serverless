@@ -1,1 +1,0 @@
-https://www.netlify.com/blog/2021/07/29/how-to-process-multipart-form-data-with-a-netlify-function/?_ga=2.15743987.435074364.1672116091-1402260361.1672116091
