@@ -13,7 +13,7 @@ const formdata = await MultipartParser.parse(event);
     const svgImage = `
     <svg width="${width}" height="${height}">
     <style>
-      .title { fill: blue; font-family: helvetica; font-size: 20px; font-weight: bold;}
+      .title { fill: blue; font-family: helvetica; font-size: 15px; font-weight: bold;}
     </style>
     <text x="10%" y="10%"  class="title">${date}</text>
     </svg>`;
