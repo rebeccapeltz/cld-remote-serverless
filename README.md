@@ -1,6 +1,8 @@
-# Implement a Lambda Function
+# Implement a Lambda Function to Serve as a Cloudinary Remote function.
 
-This function call be called via Cloudinary URL as a remote function.  
+This function call be called via Cloudinary URL as a remote function. The remote function provides a custom transformation.  
+
+In this example, the transformation is a text overlay showing the time the transformation was called and the derived iamge cached.  
 
 You can create a signed function (backend only) that calls a remote function to add a custom transformation. In this example 
 we add the date cached as an image overlay. This is a derived image that will get cached as it is delivered to the requesting user.  
